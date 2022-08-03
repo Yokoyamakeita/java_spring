@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+	氏名:[[${use.name}]]
+	E-Mail:[[${use.email}]]
+	年齢:[[${use.age}]]
+</body>
+</html>

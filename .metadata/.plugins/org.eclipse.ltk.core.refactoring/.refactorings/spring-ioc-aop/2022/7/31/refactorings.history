@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;data.sql&apos; to &apos;data.sql&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;spring-ioc-aop&apos;&#x0D;&#x0A;- 宛先要素: &apos;data.sql&apos;&#x0D;&#x0A;- オリジナル要素: &apos;data.sql&apos;" description="ファイルをコピー" element1="src/main/resources/data.sql" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1659181226134" target="/spring-ioc-aop/src/main/resources/data.sql" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,8 @@
+invoice = invoice
+name = name
+address = address
+phoneNumber = phoneNumber
+price = price（JPY）
+paymentDeadline = payment Deadline
+register = register
+confirmationMessage = Register has been successfully completed!

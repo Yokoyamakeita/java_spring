@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+<title>Title</title>
+</head>
+<body class="big-light">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+			<h4 class="border-bottom my-3" th:text="#{inquiry}"></h4>
+			
+			<p class="text-denger" th:text="#{confirmationMessage}"></p>
+			
+			<div th:object="${inquiry}">
+				<div class="mb-3">
+					<label for="password" th:text="#{name}"></label>
+					<input type="text" class="form-control" th:field="*{name}" disabled>
+				</div>
+				
+				<div class="mb-3">
+					<label for="email" th:text="#{email}"></label>
+					<input type="email" class="form-control" th:field="*{email}" disabled>
+				</div>
+
+</body>
+</html>

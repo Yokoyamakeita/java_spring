@@ -1,0 +1,31 @@
+package com.example.demo;
+
+import org.apache.catalina.core.ApplicationContext;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@RequiredArgsConstructor
+@SpringBootApplication
+public class SpringIocAopApplication implements ApplicationRunner{
+	
+	private final ApplicationContext appContext;
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringIocAopApplication.class, args);
+	}
+	
+	@Override
+	public void run(ApplicationArgument args) throws Exception{
+		var allBeanNames = appContext.getBeanDefinitionNames();
+		for(var beanName: allBeanNames) {
+			log.info("Bean名:{}",beanName);
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http:www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+	<form th:action="@{form}" th:object="${user}" method="post">
+	<label for="name">氏名</label>
+	<input type="text" th:field="*{name}">
+	<br>
+	<label for="email">氏名</label>
+	<input type="text" th:field="*{email}">
+	<br>
+	<label for="name">氏名</label>
+	<input type="text" th:field="*{name}">
+	<br>
+	</form>
+</body>
+</html>

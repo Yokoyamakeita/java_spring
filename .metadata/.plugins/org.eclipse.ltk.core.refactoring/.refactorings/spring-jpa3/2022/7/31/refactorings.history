@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from プロジェクト &apos;spring-jpa3&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;spring-jpa3&apos;&#x0D;&#x0A;- オリジナル要素: &apos;com.example.demo.repositry.EmployeeRepository.java&apos;" description="要素を削除" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.repositry{EmployeeRepository.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1659174712078" subPackages="false" version="1.0"/>
+</session>

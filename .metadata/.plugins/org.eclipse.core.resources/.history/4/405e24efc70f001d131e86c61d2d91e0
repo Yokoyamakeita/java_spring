@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+<title>Title</title>
+</head>
+<body class="big-light">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<h4 class="border-bottom my-3" th:text="#{invoice}"></h4>
+					<form th:action="@{/}" th:object="${invoice}" method="post" novalidate>
+					<div class="mb-3">
+						<label for="name" th:text="#{name}"></label>
+						<input type="text" class="form-control" th:errorclass="is-invalid" th:field="*{name}">
+						<div class="invalid-feedback" th:errors="*{name}"></div>
+					</div>
+					<div class="mb-3">
+						<label for="address" th:text="#{address}"></label>
+						<input type="text" class="form-control" th:errorclass="is-invalid" th:field="*{address}">
+						
+						<div class="invalid-feedback" th:errors="*{address}"></div>
+					</div>
+					
+					<div class="mb-3">
+						<label for="phone" th:text="#{phoneNumber}"></label>
+						<input type="tel" class="form-control" th:errorclass="is-invalid" th:field="*{phoneNumber}">
+						
+						<div class="invalid-feedback" th:errors="*{phoneNumber}"></div>
+					</div>
+					
+					
+</body>
+</html>

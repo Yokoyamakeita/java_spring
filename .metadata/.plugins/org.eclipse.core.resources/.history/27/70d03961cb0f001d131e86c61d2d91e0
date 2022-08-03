@@ -1,0 +1,10 @@
+Pattern.invoice.phoneNumber = {0}は半角数字かハイフンで入力してください
+Min.invoice.price = {0}は、{1}円以下の値を入力してください
+
+#共通
+NotBlank = {0}を入力してください
+NotNull = {0}を入力してください
+Size = {0}は、{2}文字以上、{1}文字以上で入力してください
+paymentDeadline = 締め切り
+register = 登録
+confirmationMessage = 登録が完了しました！！

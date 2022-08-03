@@ -1,0 +1,8 @@
+Pattern.invoice.phoneNumber = {0}は半角数字かハイフンで入力してください
+name = 名前
+address = 住所
+phoneNumber = 電話番号
+price = 金額（円）
+paymentDeadline = 締め切り
+register = 登録
+confirmationMessage = 登録が完了しました！！

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.bg-image { 
+	background: linear-gradient( to bottom, rgba( 34, 74, 190, 1), 
+				rgba( 34, 74, 190, 0. 7) ), url('/ img/ photo. jpg'); 
+	background-size: cover;
+} 
+ .text-navy { 
+ color: #224 abe;
+} 
+.btn-navy {
+	color: white; 
+	background-color: #224 abe;
+}

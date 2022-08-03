@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>title</title>
+</head>
+<body>
+	<span th:text="${toString}"></span>
+	<ol>
+		<th:block th:each="coffee :${allCoffee}" th:object="${coffee}">
+		<li th:text="*{name}"></li>
+		</th:block>
+	</ol>
+</body>
+</html>
